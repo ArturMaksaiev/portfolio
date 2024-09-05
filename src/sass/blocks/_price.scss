@@ -1,0 +1,21 @@
+.price {
+    padding-top: 66px;
+    &__wrapper {
+        margin-top: 60px;
+        padding: 0 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 265px);
+        justify-content: space-between;
+    }
+    &__item {
+        margin-bottom: 15px;
+    }
+    &__type {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    &__count {
+        font-size: 14px;
+        font-weight: 700;
+    }
+}
